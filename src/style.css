@@ -1,0 +1,288 @@
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+*,html, body
+/* Home */
+
+    {
+        margin: 0;
+        padding: 0;
+        font-family: "roboto", sans-serif;
+    }
+.fContainer
+    {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(89, 92, 96);
+    }
+.wrapper
+    {
+        position: fixed;
+        width: 100%;
+        height: 30px;
+        display: flex;
+        background-color: rgb(41, 41, 41);
+        padding: 15px;
+        font-size: 15px;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 4px 5px rgba(0,0, 0, 0.5);
+    }
+.brand
+    {
+        display: flex;
+        padding: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        align-items: center;
+        text-shadow: 0 1px 20px goldenrod;
+        margin-left: 50px;
+    }
+.mal
+    {
+        display: flex;
+        color: goldenrod;
+        font-size: 20px;
+        padding: 2px;
+        font-weight: 900;
+    }
+.unyu
+    {
+        padding-top: 3px;
+        display: flex;
+        font-size: 20px;
+        color: white;
+    }
+.navigation
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 70px;
+    }
+.navigation>li
+    {
+        list-style-type: none; 
+        padding: 20px ;
+    }
+.navigation>li>a
+    {
+        color: goldenrod;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+.navigation>li>a:hover
+    {
+        text-shadow: 0px 0px 12px rgb(255, 213, 0);
+        color:  rgb(255, 255, 255);
+        transition: 0.4s;
+    }
+.portfolio
+    {
+        color: white;
+        padding: 15px; 
+        border-radius: 3px;
+    }
+.about:hover
+    {
+        color: white !important;
+    }
+
+
+.background
+    {
+        background: url(components/image/background.jpeg) no-repeat center;
+        background-size: 100vw;
+        background-position:top;
+        height: 800px;
+        width: 1465px;
+    }   
+    
+.wrapper2
+    {
+        padding-top: 40px;
+    }
+.pembuka
+    {
+        padding: 0;
+        padding-top: 50px;
+        color: rgb(41, 41, 41);
+        font-size: 20px;
+        font-family: "roboto";
+        text-align: center;
+    }
+
+.student
+    {
+        font-size: 130px;
+        font-family:serif ;
+        text-align: center;
+        color: rgb(46, 44, 44);
+        text-shadow: 3px 3px 0px wheat;
+    }
+.quotes
+    {
+        text-align: justify;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: "roboto";
+    }
+
+
+
+/* ABOUT */
+
+
+    .container
+    {
+        display: flex;
+        background-color: rgb(46, 44, 44);
+        width: 1315px;
+        height: 500px;
+        padding: 50px;
+        padding-left: 100px;
+    }
+    
+    .img
+    {
+        box-shadow: 1px 1px 20px rgb(0, 0, 0);
+        border-radius: 0px;
+        width: 250px;
+        height: 250px;
+    }
+    
+    .wrapper3
+    {
+        margin-left: 100px;
+        height: 500px;
+        width: 500px;
+        margin-top: 70px;   
+    }
+    .about1
+    {
+        width: 100px;
+    }
+    
+    .name
+    {
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .name div
+    {
+        font-size: 60px;
+        font-family:"Antonio";
+        margin: -20px;
+        padding: 0;
+        
+    }
+    .akmal
+    {
+        font-stretch: condensed;
+        color: rgb(244, 244, 244);
+        font-weight: bold;
+        text-shadow: 1px 1px 10px  #d8a600;
+    }
+    .h  
+    {
+        color: #d8a600;
+    }
+    .m
+    {
+        color: #d8a600;
+    }   
+
+    .wrapper4
+    {
+        margin-top: 5px;
+        height: 450px;
+        width: 350px;
+        margin-left: 100px;
+        margin-right: 200px;
+        text-align: justify;
+        text-overflow:clip;
+        text-shadow: 4px 4px 2px goldenrod;
+    }
+
+    .wrap2 div
+    {
+        font-family: Antonio;
+        color: rgba(234, 234, 234, 1);
+        font-size: 130px;
+    }
+
+        span
+    {
+    text-shadow: none;
+    font-family: antonio;
+    color: #b98e01;
+    }
+/* ABOUT END */
+
+
+/* Location */
+.wrap3
+    {
+        display: flex;
+        justify-content: center;
+    }
+.judul
+    {
+        margin-top: 50px;
+        font-size: 50px;
+        color: white;
+        text-shadow: 1.5px 1.5px 4px goldenrod;
+
+    }
+.maps 
+    {
+        margin-left: 130px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        height: 500px;
+        width: 80%;
+        box-shadow:0px 1px 20px goldenrod;
+    }
+#gmaps{
+    padding: 10px;
+    height: 100%;
+    background-color: rgb(40, 40, 40) ;
+}
+
+/* Location */
+
+/* Footer */
+footer
+    {
+        line-height: 50px;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        height: 50px;
+        background-color: rgb(55, 55, 55);
+        font-size: 20px;
+        color: white;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+.a
+{
+    margin-left: 5px;
+    color: #b98e01;
+    font-weight: bold;
+    text-shadow: 1px 1px 15px wheat;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: antonio;
+}
+.a:hover
+{
+    color: white;
+    text-shadow: wheat;
+}
+/* Footer end */
